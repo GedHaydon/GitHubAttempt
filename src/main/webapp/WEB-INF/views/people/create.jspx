@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_ged_domain_Person" modelAttribute="person" path="/people" render="${empty dependencies}" z="I42j9SC+W9Y34AbJS/jZqiVKSfw=">
+        <field:input field="firstName" id="c_com_ged_domain_Person_firstName" z="ddCj063B9KeOA3UxHYP5vQXNzSM="/>
+        <field:input field="surname" id="c_com_ged_domain_Person_surname" z="vQ2ZWrsgpGUcIGS3N3RfziaaNgg="/>
+        <field:datetime dateTimePattern="${person_birthdate_date_format}" field="birthDate" id="c_com_ged_domain_Person_birthDate" z="mq5dwBpkSg0w4c3DNzmNfxeaMSQ="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_ged_domain_Person" render="${not empty dependencies}" z="nZLV1tFIdZouc3s3pk3786JlcG8="/>
+</div>
