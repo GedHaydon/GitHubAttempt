@@ -7,6 +7,7 @@
             <table:column id="c_com_ged_domain_Person_firstName" property="firstName" z="senukHsDMK5ozI2pESoIkax+Hws="/>
             <table:column id="c_com_ged_domain_Person_surname" property="surname" z="+5b3WuvRTr5ckfmMQ9zNhxw/vtA="/>
             <table:column date="true" dateTimePattern="${person_birthdate_date_format}" id="c_com_ged_domain_Person_birthDate" property="birthDate" z="wqIB5gqLpTSjnZNVK5SXOoUFCs4="/>
+            <table:column id="c_com_ged_domain_Person_town" property="town" z="zE/pc19y8gEBfqwdN3SQhRNe6xU="/>
         </table:table>
     </page:list>
 </div>

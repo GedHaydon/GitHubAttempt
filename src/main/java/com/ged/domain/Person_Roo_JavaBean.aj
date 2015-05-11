@@ -32,4 +32,12 @@ privileged aspect Person_Roo_JavaBean {
         this.birthDate = birthDate;
     }
     
+    public String Person.getTown() {
+        return this.town;
+    }
+    
+    public void Person.setTown(String town) {
+        this.town = town;
+    }
+    
 }

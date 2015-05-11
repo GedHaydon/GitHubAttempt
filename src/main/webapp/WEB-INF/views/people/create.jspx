@@ -6,6 +6,7 @@
         <field:input field="firstName" id="c_com_ged_domain_Person_firstName" z="ddCj063B9KeOA3UxHYP5vQXNzSM="/>
         <field:input field="surname" id="c_com_ged_domain_Person_surname" z="vQ2ZWrsgpGUcIGS3N3RfziaaNgg="/>
         <field:datetime dateTimePattern="${person_birthdate_date_format}" field="birthDate" id="c_com_ged_domain_Person_birthDate" z="mq5dwBpkSg0w4c3DNzmNfxeaMSQ="/>
+        <field:input field="town" id="c_com_ged_domain_Person_town" z="06x4lbqVRuaZdSkrS1a4+bhoPec="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_com_ged_domain_Person" render="${not empty dependencies}" z="nZLV1tFIdZouc3s3pk3786JlcG8="/>
 </div>

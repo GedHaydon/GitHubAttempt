@@ -25,4 +25,8 @@ public class Person {
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(style = "M-")
     private Date birthDate;
+
+    /**
+     */
+    private String town;
 }

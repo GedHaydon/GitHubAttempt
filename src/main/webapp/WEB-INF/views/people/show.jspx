@@ -6,5 +6,6 @@
         <field:display field="firstName" id="s_com_ged_domain_Person_firstName" object="${person}" z="PhOTGC6SKilXHGaEFHJeC7uaqTo="/>
         <field:display field="surname" id="s_com_ged_domain_Person_surname" object="${person}" z="U/lUttm9xanKiKEW7TZsUKyuwLA="/>
         <field:display date="true" dateTimePattern="${person_birthdate_date_format}" field="birthDate" id="s_com_ged_domain_Person_birthDate" object="${person}" z="oLti25MuNIN51RHyGN+mHwrZIWQ="/>
+        <field:display field="town" id="s_com_ged_domain_Person_town" object="${person}" z="qBqIeqojTt9zxg0jCGQj8qBolfI="/>
     </page:show>
 </div>

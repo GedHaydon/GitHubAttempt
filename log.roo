@@ -11,3 +11,5 @@ web mvc all --package ~.web
 focus --class ~.domain.person
 field date --fieldName birthDate --type java.util.Date
 web mvc all --package ~.web
+focus --class ~.domain.Person
+field string --fieldName town

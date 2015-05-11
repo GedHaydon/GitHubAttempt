@@ -30,6 +30,7 @@ privileged aspect PersonDataOnDemand_Roo_DataOnDemand {
         setBirthDate(obj, index);
         setFirstName(obj, index);
         setSurname(obj, index);
+        setTown(obj, index);
         return obj;
     }
     
@@ -46,6 +47,11 @@ privileged aspect PersonDataOnDemand_Roo_DataOnDemand {
     public void PersonDataOnDemand.setSurname(Person obj, int index) {
         String surname = "surname_" + index;
         obj.setSurname(surname);
+    }
+    
+    public void PersonDataOnDemand.setTown(Person obj, int index) {
+        String town = "town_" + index;
+        obj.setTown(town);
     }
     
     public Person PersonDataOnDemand.getSpecificPerson(int index) {
